@@ -1,0 +1,145 @@
+ul,li{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+img{border: 0;display: block;}
+a{text-decoration: none;}
+body{
+    margin: 0;
+    padding: 0;
+    background: url(../img/bg.jpg);
+}
+.page-header{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+.header-top{
+    padding:15px 0;
+}
+.header-top .navbar-form{
+    padding: 0 !important;
+}
+.header-top .navbar-right{
+    margin-right: 0 !important;
+    margin-top: 20px;
+}
+.navbar-nav {
+    font-size: 16px;
+    font-weight: 700;
+}
+.navbar-inverse {
+    background-color: #10934d !important;
+    border-color: #10934d !important;
+}
+.navbar-inverse .navbar-nav > li > a {
+    color: #fff;
+}
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
+    color: #fff;
+    background-color: #055b2d;
+}
+.alljd{
+    padding: 15px 0;
+    color: #fff;
+    background-color: #057238;
+    font-size: 16px;
+    font-weight: 700;
+   text-align: center;
+}
+.menu{
+    background:#10934d; 
+    text-align: center;
+    line-height: 60px;
+}
+.menu a{
+    width: 100%;
+    display: block;
+    color: #fff;
+}
+.on{background-color: #055b2d;}
+.show{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    min-height: 840px;
+    overflow: hidden;
+}
+.Big_Box {width: 100%;overflow: hidden;}
+.Big_Box > img{
+    width: 100%;
+    height: 840px;
+}
+.page-footer{
+    margin:20px 0;
+    text-align: center; 
+}
+.page-footer img{
+   display: inline-block;
+   margin-left: 20px;
+   vertical-align: middle;
+}
+.carousel-inner > .item > img, .carousel-inner > .item > a > img {
+    width: 100%;
+    height: 840px;
+}
+
+.intr{
+    line-height: 40px;
+    font-size: 18px;
+}
+.intr h1{
+    text-align: center;
+    line-height: 90px;
+    font-size: 24px;
+    border-bottom: #C9C9C9 1px dashed;
+}
+.intr p{
+    padding: 0 15px;
+}
+.contactus{text-align: center;}
+.contactus h1{
+    font-size: 32px;
+    line-height: 90px;
+    border-bottom: #C9C9C9 1px dashed;
+}
+.contactus p{
+    font-size: 18px;
+    line-height: 40px;
+}
+.contactus img{width: 100%;height:400px;}
+
+.dw{
+    padding: 20px 35px;
+}
+.title{
+    height: 45px;
+    line-height: 45px;
+    padding: 0 8px;
+    background: #D3DDEC;
+    border-bottom: #FFA010 5px solid;
+    font-size: 16px;
+}
+.list li{
+    line-height: 40px;
+    font-size: 14px;
+    border-bottom: #CCCCCC 1px dashed;
+}
+.list .tt{list-style: inside;}
+.list a{color: #333;}
+.mt{
+    width: 100%;
+    overflow: hidden;
+    padding: 10px 5px;
+}
+.mt1 img{
+    width: 100%;
+    height: 250px;
+}
+.mt2{
+    margin-top: 20px;
+}
+.mt2 img{
+    width: 100%;
+}

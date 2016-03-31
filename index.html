@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>桂林园博园</title>
+<meta name="description" content="">
+<meta name="keywords" content="">
+<link href="http://cdn.bootcss.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" type="text/css" href="css/bootstrap.css"/>
+<link href="css/style.css" rel="stylesheet">
+<script src="http://apps.bdimg.com/libs/jquery/2.0.0/jquery.min.js"></script>
+<script src="js/bootstrap.js"></script>
+</head>
+<body>
+    <div class="page-header">
+        <div class="header-top">
+            <div class="container">
+                <img class="pull-left" src="img/logo.png" alt="">
+                <div class="nav pull-right">
+                    <p>
+                        <small><a href="#">设为首页</a> |</small>
+                        <small><a href="#">加入收藏</a> |</small>
+                        <small><a href="#">放在桌面</a> |</small>
+                        <small><a href="#">全站搜索</a></small>
+                    </p>
+                    <form class="navbar-form navbar-right" role="search">
+                         <div class="input-group">
+                          <input type="text" class="form-control" placeholder="输入搜索关键字">
+                          <span class="input-group-btn">
+                            <button class="btn btn-default" type="submit"><i class="fa fa-search"></i></button>
+                          </span>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="nav navbar-inverse">
+            <div class="container">
+            <div class="row">
+                <div class="col-sm-3 col-lg-2"><div class="alljd">全部景点</div></div>
+                <div class="col-sm-9 col-lg-10 ">
+                    <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="index.html">首页</a></li>
+                        <li><a href="daolan.html" target="show">景区导航图</a></li>
+                        <li><a href="introduce.html" target="show">景区介绍</a></li>
+                        <li><a href="meitu.html" target="show">精美图集</a></li>
+                        <li><a href="contactus.html" target="show">联系我们</a></li>
+                        <li><a href="dangwu.html" target="show">新闻动态</a></li>
+                    </ul>
+                </div>
+                </div>
+            </div>
+                
+            </div>
+        </div>
+    </div>
+    <div class="page-content">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-3 col-lg-2">
+                    <ul class="menu">
+                        <li><a href="menu/guilin.html" target="show">桂林园</a></li>
+                        <li><a href="menu/nanning.html" target="show">南宁园</a></li>
+                        <li><a href="menu/liuzhou.html" target="show">柳州园</a></li>
+                        <li><a href="menu/wuzhou.html" target="show">梧州园</a></li>
+                        <li><a href="menu/beihai.html" target="show">北海园</a></li>
+                        <li><a href="menu/qinzhou.html" target="show">钦州园</a></li>
+                        <li><a href="menu/fangchenggang.html" target="show">防城港园</a></li>
+                        <li><a href="menu/yulin.html" target="show">玉林园</a></li>
+                        <li><a href="menu/guigang.html" target="show">贵港园</a></li>
+                        <li><a href="menu/baise.html" target="show">百色园</a></li>
+                        <li><a href="menu/hechi.html" target="show">河池园</a></li>
+                        <li><a href="menu/hezhou.html" target="show">贺州园</a></li>
+                        <li><a href="menu/laibin.html" target="show">来宾园</a></li>
+                        <li><a href="menu/chongzuo.html" target="show">崇左园</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-9 col-lg-10">
+                    <iframe src="home.html" class="show" name="show" frameborder="0"></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="page-footer">
+        <div class="container">
+            Copyright © 2014桂林园博园
+            <a href="http://weibo.com/glyby"><img src="img/wb2.png" alt=""></a>
+        </div>
+    </div>
+    <script>
+        // 首页导航
+            $('.navbar-nav li').click(function(){
+                    $('.menu li').removeClass('on');
+                    $(this).addClass('active').siblings().removeClass('active');
+                })
+            $('.menu li').click(function(){
+                $('.navbar-nav li').removeClass('active');
+                $('.menu li').removeClass('on');
+                $(this).addClass('on');
+            })
+    </script>
+</body>
+</html>
